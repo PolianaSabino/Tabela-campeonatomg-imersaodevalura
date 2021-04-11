@@ -1,0 +1,71 @@
+* {
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 400px;
+    background-image: url('https://pbs.twimg.com/media/C5mHq48WAAAcqaI.jpg');
+    background-color: #275a29;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+    background-color: lightgray;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 675px;
+    margin-top: 50px;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 5px black
+}
+
+h3 {
+  color: white;
+  text-shadow: 2px 2px 5px black
+}
+th, tr, td {
+    border: solid 1px white;
+    color: black;
+}
+
+@media screen and (max-width: 700px) {
+}
+
+@media screen and (max-width: 400px) {
+}
